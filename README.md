@@ -1,19 +1,29 @@
-# contask
+# Como rodar o projeto Flutter `contask`
 
-A new Flutter project.
+Este guia explica passo a passo o que é necessário para rodar o projeto Flutter no seu computador.
 
-## Getting Started
+## 1. Pré-requisitos
 
-This project is a starting point for a Flutter application.
+Antes de tudo, você precisa instalar e configurar algumas ferramentas:
 
-A few resources to get you started if this is your first Flutter project:
+### 1.1 Instalar o Flutter SDK
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Acesse o site oficial: https://flutter.dev/docs/get-started/install  
+- Siga as instruções para seu sistema operacional (Windows, macOS ou Linux).  
+- Após a instalação, adicione o Flutter ao seu PATH conforme o tutorial.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### 1.2 Verificar instalação Flutter
+flutter doctor
 
-1. flutter run
-2. Escolher chrome [2]
+### 1.3 Clonar repositório e entrar na pasta
+git clone https://github.com/victorleafar/contask.git
+cd contask
+
+### 1.4 Baixar dependências
+flutter pub get
+
+### 1.5 Rodar 
+flutter run
+
+### 1.6 Escolher navegador
+[2] CHROME
