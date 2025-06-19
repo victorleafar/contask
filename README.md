@@ -16,8 +16,8 @@ Antes de tudo, você precisa instalar e configurar algumas ferramentas:
 flutter doctor
 
 ### 1.3 Clonar repositório e entrar na pasta
-git clone https://github.com/victorleafar/contask.git
-cd contask
+- git clone https://github.com/victorleafar/contask.git
+- cd contask
 
 ### 1.4 Baixar dependências
 flutter pub get
